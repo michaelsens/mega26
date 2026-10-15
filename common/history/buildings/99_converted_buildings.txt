@@ -13153,7 +13153,7 @@
 				add_ownership = {
 					country = {
 						country = c:W26
-						levels = 1
+						levels = 3 # mega26: +2 to crew the starting fleet
 					}
 				}
 				reserves = 1

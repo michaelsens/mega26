@@ -561,4 +561,147 @@ MILITARY_FORMATIONS = {
 			}
 		}
 	}
+	c:W26 ?= { # EU4 total 15
+		create_military_formation = {
+			type = fleet
+			hq_region = sr:region_oceania
+			ship = {
+				type = ship_type:ship_type_ship_of_the_line
+				count = 2
+			}
+			ship = {
+				type = ship_type:ship_type_frigate
+				count = 2
+			}
+		}
+	}
+	c:BNG ?= { # EU4 total 15
+		create_military_formation = {
+			type = fleet
+			hq_region = sr:region_equatorial_africa
+			ship = {
+				type = ship_type:ship_type_ship_of_the_line
+				count = 2
+			}
+			ship = {
+				type = ship_type:ship_type_frigate
+				count = 2
+			}
+		}
+	}
+	c:CSC ?= { # EU4 total 15
+		add_technology_researched = drydocks # unlocks ships of the line; the era_1 floor in global history grants it too
+		create_military_formation = {
+			type = fleet
+			hq_region = sr:region_pacific_coast
+			ship = {
+				type = ship_type:ship_type_ship_of_the_line
+				count = 2
+			}
+			ship = {
+				type = ship_type:ship_type_frigate
+				count = 2
+			}
+		}
+	}
+	c:X68 ?= { # EU4 total 14
+		add_technology_researched = drydocks # unlocks ships of the line; the era_1 floor in global history grants it too
+		create_military_formation = {
+			type = fleet
+			hq_region = sr:region_northeast_asia
+			ship = {
+				type = ship_type:ship_type_ship_of_the_line
+				count = 2
+			}
+			ship = {
+				type = ship_type:ship_type_frigate
+				count = 2
+			}
+		}
+	}
+	c:WIN ?= { # EU4 total 11
+		create_military_formation = {
+			type = fleet
+			hq_region = sr:region_central_america
+			ship = {
+				type = ship_type:ship_type_ship_of_the_line
+				count = 1
+			}
+			ship = {
+				type = ship_type:ship_type_frigate
+				count = 2
+			}
+		}
+	}
+	c:CKC ?= { # EU4 total 10
+		add_technology_researched = drydocks # unlocks ships of the line; the era_1 floor in global history grants it too
+		create_military_formation = {
+			type = fleet
+			hq_region = sr:region_northeast_asia
+			ship = {
+				type = ship_type:ship_type_ship_of_the_line
+				count = 1
+			}
+			ship = {
+				type = ship_type:ship_type_frigate
+				count = 1
+			}
+		}
+	}
+	c:X32 ?= { # EU4 total 10
+		create_military_formation = {
+			type = fleet
+			hq_region = sr:region_gran_colombia
+			ship = {
+				type = ship_type:ship_type_ship_of_the_line
+				count = 1
+			}
+			ship = {
+				type = ship_type:ship_type_frigate
+				count = 1
+			}
+		}
+	}
+	c:W90 ?= { # EU4 total 7
+		create_military_formation = {
+			type = fleet
+			hq_region = sr:region_indonesia
+			ship = {
+				type = ship_type:ship_type_ship_of_the_line
+				count = 1
+			}
+			ship = {
+				type = ship_type:ship_type_frigate
+				count = 1
+			}
+		}
+	}
+	c:W64 ?= { # EU4 total 7
+		create_military_formation = {
+			type = fleet
+			hq_region = sr:region_indochina
+			ship = {
+				type = ship_type:ship_type_ship_of_the_line
+				count = 1
+			}
+			ship = {
+				type = ship_type:ship_type_frigate
+				count = 1
+			}
+		}
+	}
+	c:X85 ?= { # EU4 total 7
+		create_military_formation = {
+			type = fleet
+			hq_region = sr:region_central_europe
+			ship = {
+				type = ship_type:ship_type_ship_of_the_line
+				count = 1
+			}
+			ship = {
+				type = ship_type:ship_type_frigate
+				count = 1
+			}
+		}
+	}
 }
