@@ -460,7 +460,7 @@ REPLACE_OR_CREATE:ALK ?= {
 	country_type = colonial
 	tier = principality
 	cultures = { neo-canada_colony-japanese }
-	religion = mahayana
+	religion = shinto # mega26: was mahayana
 	capital = STATE_ALASKA
 }
 
@@ -4089,7 +4089,7 @@ REPLACE_OR_CREATE:JAP ?= {
 	country_type = unrecognized
 	tier = empire
 	cultures = { japanese }
-	religion = mahayana
+	religion = shinto # mega26: was mahayana
 	capital = STATE_KYOTO
 }
 

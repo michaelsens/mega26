@@ -4,7 +4,7 @@
 			first_name = "Teruhito_Jinbo"
 			ruler = yes
 			culture = cu:neo-canada_colony-japanese
-			religion = rel:mahayana
+			religion = rel:shinto
 			birth_date = 1778.3.26
 			traits = {
 				basic_colonial_administrator cautious 

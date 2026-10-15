@@ -687,7 +687,7 @@
 			}
 			create_pop = {
 				culture = neo-canada_colony-japanese
-				religion = mahayana
+				religion = shinto
 				size = 16331
 			}
 			create_pop = {
@@ -702,7 +702,7 @@
 			}
 			create_pop = {
 				culture = neo-canada_colony-japanese
-				religion = mahayana
+				religion = shinto
 				size = 4668
 			}
 			create_pop = {
@@ -712,7 +712,7 @@
 			}
 			create_pop = {
 				culture = neo-canada_colony-japanese
-				religion = mahayana
+				religion = shinto
 				size = 9773
 			}
 			create_pop = {
@@ -722,7 +722,7 @@
 			}
 			create_pop = {
 				culture = neo-canada_colony-japanese
-				religion = mahayana
+				religion = shinto
 				size = 13768
 			}
 			create_pop = {
@@ -742,7 +742,7 @@
 			}
 			create_pop = {
 				culture = neo-canada_colony-japanese
-				religion = mahayana
+				religion = shinto
 				size = 257
 			}
 			create_pop = {
@@ -757,12 +757,12 @@
 			}
 			create_pop = {
 				culture = neo-canada_colony-polynesian
-				religion = mahayana
+				religion = shinto
 				size = 801
 			}
 			create_pop = {
 				culture = neo-canada_colony-japanese
-				religion = mahayana
+				religion = shinto
 				size = 4744
 			}
 			create_pop = {
@@ -772,7 +772,7 @@
 			}
 			create_pop = {
 				culture = neo-canada_colony-japanese
-				religion = mahayana
+				religion = shinto
 				size = 3654
 			}
 			create_pop = {
@@ -782,7 +782,7 @@
 			}
 			create_pop = {
 				culture = neo-canada_colony-japanese
-				religion = mahayana
+				religion = shinto
 				size = 4904
 			}
 		}
@@ -1992,12 +1992,12 @@
 			}
 			create_pop = {
 				culture = siberian
-				religion = mahayana
+				religion = shinto
 				size = 36897
 			}
 			create_pop = {
 				culture = japanese
-				religion = mahayana
+				religion = shinto
 				size = 122686
 			}
 			create_pop = {
@@ -2007,12 +2007,12 @@
 			}
 			create_pop = {
 				culture = siberian
-				religion = mahayana
+				religion = shinto
 				size = 76230
 			}
 			create_pop = {
 				culture = japanese
-				religion = mahayana
+				religion = shinto
 				size = 213260
 			}
 			create_pop = {
@@ -2022,12 +2022,12 @@
 			}
 			create_pop = {
 				culture = siberian
-				religion = mahayana
+				religion = shinto
 				size = 153057
 			}
 			create_pop = {
 				culture = japanese
-				religion = mahayana
+				religion = shinto
 				size = 503908
 			}
 			create_pop = {
@@ -2042,12 +2042,12 @@
 			}
 			create_pop = {
 				culture = manchu
-				religion = mahayana
+				religion = shinto
 				size = 160645
 			}
 			create_pop = {
 				culture = japanese
-				religion = mahayana
+				religion = shinto
 				size = 508400
 			}
 		}
@@ -7485,7 +7485,7 @@
 			}
 			create_pop = {
 				culture = athabaskan
-				religion = mahayana
+				religion = shinto
 				size = 25747
 			}
 			create_pop = {
@@ -7505,7 +7505,7 @@
 			}
 			create_pop = {
 				culture = neo-canada_colony-japanese
-				religion = mahayana
+				religion = shinto
 				size = 7797
 			}
 		}
@@ -8463,17 +8463,17 @@
 			}
 			create_pop = {
 				culture = korean
-				religion = mahayana
+				religion = shinto
 				size = 44607
 			}
 			create_pop = { # mega26: Koreans converted to Japanese
 				culture = japanese
-				religion = mahayana
+				religion = shinto
 				size = 38454
 			}
 			create_pop = {
 				culture = japanese
-				religion = mahayana
+				religion = shinto
 				size = 218806
 			}
 			create_pop = {
@@ -8488,17 +8488,17 @@
 			}
 			create_pop = {
 				culture = korean
-				religion = mahayana
+				religion = shinto
 				size = 149951
 			}
 			create_pop = { # mega26: Koreans converted to Japanese
 				culture = japanese
-				religion = mahayana
+				religion = shinto
 				size = 129268
 			}
 			create_pop = {
 				culture = japanese
-				religion = mahayana
+				religion = shinto
 				size = 719111
 			}
 			create_pop = {
@@ -8513,17 +8513,17 @@
 			}
 			create_pop = {
 				culture = korean
-				religion = mahayana
+				religion = shinto
 				size = 134225
 			}
 			create_pop = { # mega26: Koreans converted to Japanese
 				culture = japanese
-				religion = mahayana
+				religion = shinto
 				size = 115712
 			}
 			create_pop = {
 				culture = japanese
-				religion = mahayana
+				religion = shinto
 				size = 652582
 			}
 		}
@@ -11142,22 +11142,22 @@
 		region_state:JAP = {
 			create_pop = {
 				culture = japanese
-				religion = mahayana
+				religion = shinto
 				size = 1811122
 			}
 			create_pop = {
 				culture = japanese
-				religion = mahayana
+				religion = shinto
 				size = 1415968
 			}
 			create_pop = {
 				culture = japanese
-				religion = mahayana
+				religion = shinto
 				size = 1547686
 			}
 			create_pop = {
 				culture = japanese
-				religion = mahayana
+				religion = shinto
 				size = 630397
 			}
 			create_pop = {
@@ -11167,12 +11167,12 @@
 			}
 			create_pop = {
 				culture = japanese
-				religion = mahayana
+				religion = shinto
 				size = 1284250
 			}
 			create_pop = {
 				culture = japanese
-				religion = mahayana
+				religion = shinto
 				size = 1448898
 			}
 		}
@@ -16298,12 +16298,12 @@
 			}
 			create_pop = {
 				culture = min
-				religion = mahayana
+				religion = shinto
 				size = 147125
 			}
 			create_pop = {
 				culture = japanese
-				religion = mahayana
+				religion = shinto
 				size = 746853
 			}
 			create_pop = {
@@ -16318,12 +16318,12 @@
 			}
 			create_pop = {
 				culture = min
-				religion = mahayana
+				religion = shinto
 				size = 127476
 			}
 			create_pop = {
 				culture = japanese
-				religion = mahayana
+				religion = shinto
 				size = 651332
 			}
 			create_pop = {
@@ -16338,12 +16338,12 @@
 			}
 			create_pop = {
 				culture = min
-				religion = mahayana
+				religion = shinto
 				size = 29106
 			}
 			create_pop = {
 				culture = japanese
-				religion = mahayana
+				religion = shinto
 				size = 486714
 			}
 			create_pop = {
@@ -20613,12 +20613,12 @@
 			}
 			create_pop = {
 				culture = ainu
-				religion = mahayana
+				religion = shinto
 				size = 275496
 			}
 			create_pop = {
 				culture = japanese
-				religion = mahayana
+				religion = shinto
 				size = 793283
 			}
 			create_pop = {
@@ -20628,12 +20628,12 @@
 			}
 			create_pop = {
 				culture = ainu
-				religion = mahayana
+				religion = shinto
 				size = 295824
 			}
 			create_pop = {
 				culture = japanese
-				religion = mahayana
+				religion = shinto
 				size = 767255
 			}
 			create_pop = {
@@ -20643,17 +20643,17 @@
 			}
 			create_pop = {
 				culture = ainu
-				religion = mahayana
+				religion = shinto
 				size = 198916
 			}
 			create_pop = {
 				culture = japanese
-				religion = mahayana
+				religion = shinto
 				size = 677474
 			}
 			create_pop = {
 				culture = japanese
-				religion = mahayana
+				religion = shinto
 				size = 1547687
 			}
 		}
@@ -20662,22 +20662,22 @@
 		region_state:JAP = {
 			create_pop = {
 				culture = japanese
-				religion = mahayana
+				religion = shinto
 				size = 1580616
 			}
 			create_pop = {
 				culture = japanese
-				religion = mahayana
+				religion = shinto
 				size = 1415969
 			}
 			create_pop = {
 				culture = japanese
-				religion = mahayana
+				religion = shinto
 				size = 1481828
 			}
 			create_pop = {
 				culture = japanese
-				religion = mahayana
+				religion = shinto
 				size = 1284251
 			}
 		}
@@ -23862,22 +23862,22 @@
 		region_state:JAP = {
 			create_pop = {
 				culture = japanese
-				religion = mahayana
+				religion = shinto
 				size = 1481828
 			}
 			create_pop = {
 				culture = japanese
-				religion = mahayana
+				religion = shinto
 				size = 1909911
 			}
 			create_pop = {
 				culture = japanese
-				religion = mahayana
+				religion = shinto
 				size = 1350110
 			}
 			create_pop = {
 				culture = japanese
-				religion = mahayana
+				religion = shinto
 				size = 1481828
 			}
 		}
@@ -23959,32 +23959,32 @@
 		region_state:JAP = {
 			create_pop = {
 				culture = japanese
-				religion = mahayana
+				religion = shinto
 				size = 900073
 			}
 			create_pop = {
 				culture = japanese
-				religion = mahayana
+				religion = shinto
 				size = 1580616
 			}
 			create_pop = {
 				culture = japanese
-				religion = mahayana
+				religion = shinto
 				size = 1119603
 			}
 			create_pop = {
 				culture = japanese
-				religion = mahayana
+				religion = shinto
 				size = 938491
 			}
 			create_pop = {
 				culture = japanese
-				religion = mahayana
+				religion = shinto
 				size = 1415969
 			}
 			create_pop = {
 				culture = japanese
-				religion = mahayana
+				religion = shinto
 				size = 461013
 			}
 		}
@@ -26217,12 +26217,12 @@
 		region_state:JAP = {
 			create_pop = {
 				culture = japanese
-				religion = mahayana
+				religion = shinto
 				size = 2700219
 			}
 			create_pop = {
 				culture = japanese
-				religion = mahayana
+				religion = shinto
 				size = 630397
 			}
 			create_pop = {
@@ -26232,7 +26232,7 @@
 			}
 			create_pop = {
 				culture = japanese
-				religion = mahayana
+				religion = shinto
 				size = 1284251
 			}
 		}
@@ -26241,37 +26241,37 @@
 		region_state:JAP = {
 			create_pop = {
 				culture = japanese
-				religion = mahayana
+				religion = shinto
 				size = 1481828
 			}
 			create_pop = {
 				culture = japanese
-				religion = mahayana
+				religion = shinto
 				size = 1514757
 			}
 			create_pop = {
 				culture = japanese
-				religion = mahayana
+				religion = shinto
 				size = 1844052
 			}
 			create_pop = {
 				culture = japanese
-				religion = mahayana
+				religion = shinto
 				size = 1448898
 			}
 			create_pop = {
 				culture = japanese
-				religion = mahayana
+				religion = shinto
 				size = 1415969
 			}
 			create_pop = {
 				culture = japanese
-				religion = mahayana
+				religion = shinto
 				size = 1415969
 			}
 			create_pop = {
 				culture = japanese
-				religion = mahayana
+				religion = shinto
 				size = 1350110
 			}
 		}
@@ -28821,17 +28821,17 @@
 			}
 			create_pop = {
 				culture = tagalog
-				religion = mahayana
+				religion = shinto
 				size = 37734
 			}
 			create_pop = {
 				culture = tagalog
-				religion = mahayana
+				religion = shinto
 				size = 48298
 			}
 			create_pop = {
 				culture = japanese
-				religion = mahayana
+				religion = shinto
 				size = 176354
 			}
 		}
@@ -40309,12 +40309,12 @@
 			}
 			create_pop = {
 				culture = manchu
-				religion = mahayana
+				religion = shinto
 				size = 138140
 			}
 			create_pop = {
 				culture = japanese
-				religion = mahayana
+				religion = shinto
 				size = 532314
 			}
 			create_pop = {
@@ -40324,12 +40324,12 @@
 			}
 			create_pop = {
 				culture = siberian
-				religion = mahayana
+				religion = shinto
 				size = 152460
 			}
 			create_pop = {
 				culture = japanese
-				religion = mahayana
+				religion = shinto
 				size = 426521
 			}
 			create_pop = {
@@ -40344,12 +40344,12 @@
 			}
 			create_pop = {
 				culture = manchu
-				religion = mahayana
+				religion = shinto
 				size = 163462
 			}
 			create_pop = {
 				culture = japanese
-				religion = mahayana
+				religion = shinto
 				size = 500161
 			}
 			create_pop = {
@@ -40364,12 +40364,12 @@
 			}
 			create_pop = {
 				culture = manchu
-				religion = mahayana
+				religion = shinto
 				size = 254124
 			}
 			create_pop = {
 				culture = japanese
-				religion = mahayana
+				religion = shinto
 				size = 574035
 			}
 			create_pop = {
@@ -40384,12 +40384,12 @@
 			}
 			create_pop = {
 				culture = manchu
-				religion = mahayana
+				religion = shinto
 				size = 178833
 			}
 			create_pop = {
 				culture = japanese
-				religion = mahayana
+				religion = shinto
 				size = 508879
 			}
 			create_pop = {
@@ -40399,12 +40399,12 @@
 			}
 			create_pop = {
 				culture = siberian
-				religion = mahayana
+				religion = shinto
 				size = 10204
 			}
 			create_pop = {
 				culture = japanese
-				religion = mahayana
+				religion = shinto
 				size = 33594
 			}
 			create_pop = {
@@ -40419,12 +40419,12 @@
 			}
 			create_pop = {
 				culture = manchu
-				religion = mahayana
+				religion = shinto
 				size = 22949
 			}
 			create_pop = {
 				culture = japanese
-				religion = mahayana
+				religion = shinto
 				size = 72629
 			}
 			create_pop = {
@@ -40439,12 +40439,12 @@
 			}
 			create_pop = {
 				culture = manchu
-				religion = mahayana
+				religion = shinto
 				size = 151875
 			}
 			create_pop = {
 				culture = japanese
-				religion = mahayana
+				religion = shinto
 				size = 597142
 			}
 			create_pop = {
@@ -40459,12 +40459,12 @@
 			}
 			create_pop = {
 				culture = manchu
-				religion = mahayana
+				religion = shinto
 				size = 155153
 			}
 			create_pop = {
 				culture = japanese
-				religion = mahayana
+				religion = shinto
 				size = 445253
 			}
 			create_pop = {
@@ -40479,12 +40479,12 @@
 			}
 			create_pop = {
 				culture = manchu
-				religion = mahayana
+				religion = shinto
 				size = 130781
 			}
 			create_pop = {
 				culture = japanese
-				religion = mahayana
+				religion = shinto
 				size = 450810
 			}
 			create_pop = {
@@ -40499,12 +40499,12 @@
 			}
 			create_pop = {
 				culture = manchu
-				religion = mahayana
+				religion = shinto
 				size = 125203
 			}
 			create_pop = {
 				culture = japanese
-				religion = mahayana
+				religion = shinto
 				size = 440077
 			}
 		}
@@ -43147,17 +43147,17 @@
 			}
 			create_pop = {
 				culture = korean
-				religion = mahayana
+				religion = shinto
 				size = 112553
 			}
 			create_pop = { # mega26: Koreans converted to Japanese
 				culture = japanese
-				religion = mahayana
+				religion = shinto
 				size = 91275
 			}
 			create_pop = {
 				culture = japanese
-				religion = mahayana
+				religion = shinto
 				size = 591517
 			}
 			create_pop = {
@@ -43172,17 +43172,17 @@
 			}
 			create_pop = {
 				culture = korean
-				religion = mahayana
+				religion = shinto
 				size = 86316
 			}
 			create_pop = { # mega26: Koreans converted to Japanese
 				culture = japanese
-				religion = mahayana
+				religion = shinto
 				size = 69999
 			}
 			create_pop = {
 				culture = japanese
-				religion = mahayana
+				religion = shinto
 				size = 345899
 			}
 			create_pop = {
@@ -43197,17 +43197,17 @@
 			}
 			create_pop = {
 				culture = korean
-				religion = mahayana
+				religion = shinto
 				size = 146492
 			}
 			create_pop = { # mega26: Koreans converted to Japanese
 				culture = japanese
-				religion = mahayana
+				religion = shinto
 				size = 118799
 			}
 			create_pop = {
 				culture = japanese
-				religion = mahayana
+				religion = shinto
 				size = 647280
 			}
 			create_pop = {
@@ -43222,17 +43222,17 @@
 			}
 			create_pop = {
 				culture = korean
-				religion = mahayana
+				religion = shinto
 				size = 105245
 			}
 			create_pop = { # mega26: Koreans converted to Japanese
 				culture = japanese
-				religion = mahayana
+				religion = shinto
 				size = 85350
 			}
 			create_pop = {
 				culture = japanese
-				religion = mahayana
+				religion = shinto
 				size = 517664
 			}
 			create_pop = {
@@ -43247,17 +43247,17 @@
 			}
 			create_pop = {
 				culture = korean
-				religion = mahayana
+				religion = shinto
 				size = 109845
 			}
 			create_pop = { # mega26: Koreans converted to Japanese
 				culture = japanese
-				religion = mahayana
+				religion = shinto
 				size = 89080
 			}
 			create_pop = {
 				culture = japanese
-				religion = mahayana
+				religion = shinto
 				size = 581526
 			}
 			create_pop = {
@@ -43272,17 +43272,17 @@
 			}
 			create_pop = {
 				culture = korean
-				religion = mahayana
+				religion = shinto
 				size = 85834
 			}
 			create_pop = { # mega26: Koreans converted to Japanese
 				culture = japanese
-				religion = mahayana
+				religion = shinto
 				size = 69607
 			}
 			create_pop = {
 				culture = japanese
-				religion = mahayana
+				religion = shinto
 				size = 559809
 			}
 		}
@@ -45348,7 +45348,7 @@
 			}
 			create_pop = {
 				culture = japanese
-				religion = mahayana
+				religion = shinto
 				size = 761651
 			}
 			create_pop = {
@@ -45363,12 +45363,12 @@
 			}
 			create_pop = {
 				culture = min
-				religion = mahayana
+				religion = shinto
 				size = 9702
 			}
 			create_pop = {
 				culture = japanese
-				religion = mahayana
+				religion = shinto
 				size = 162238
 			}
 			create_pop = {
@@ -45545,12 +45545,12 @@
 			}
 			create_pop = {
 				culture = ainu
-				religion = mahayana
+				religion = shinto
 				size = 205019
 			}
 			create_pop = {
 				culture = japanese
-				religion = mahayana
+				religion = shinto
 				size = 667442
 			}
 			create_pop = {
@@ -45560,12 +45560,12 @@
 			}
 			create_pop = {
 				culture = ainu
-				religion = mahayana
+				religion = shinto
 				size = 131293
 			}
 			create_pop = {
 				culture = japanese
-				religion = mahayana
+				religion = shinto
 				size = 438677
 			}
 			create_pop = {
@@ -45575,12 +45575,12 @@
 			}
 			create_pop = {
 				culture = ainu
-				religion = mahayana
+				religion = shinto
 				size = 79566
 			}
 			create_pop = {
 				culture = japanese
-				religion = mahayana
+				religion = shinto
 				size = 270990
 			}
 			create_pop = {
@@ -45590,12 +45590,12 @@
 			}
 			create_pop = {
 				culture = siberian
-				religion = mahayana
+				religion = shinto
 				size = 131463
 			}
 			create_pop = {
 				culture = japanese
-				religion = mahayana
+				religion = shinto
 				size = 387021
 			}
 		}
@@ -46096,17 +46096,17 @@
 			}
 			create_pop = {
 				culture = korean
-				religion = mahayana
+				religion = shinto
 				size = 67116
 			}
 			create_pop = { # mega26: Koreans converted to Japanese
 				culture = japanese
-				religion = mahayana
+				religion = shinto
 				size = 154338
 			}
 			create_pop = {
 				culture = japanese
-				religion = mahayana
+				religion = shinto
 				size = 753408
 			}
 			create_pop = {
@@ -46131,17 +46131,17 @@
 			}
 			create_pop = {
 				culture = korean
-				religion = mahayana
+				religion = shinto
 				size = 58497
 			}
 			create_pop = { # mega26: Koreans converted to Japanese
 				culture = japanese
-				religion = mahayana
+				religion = shinto
 				size = 134517
 			}
 			create_pop = {
 				culture = japanese
-				religion = mahayana
+				religion = shinto
 				size = 666661
 			}
 			create_pop = {
@@ -46161,17 +46161,17 @@
 			}
 			create_pop = {
 				culture = korean
-				religion = mahayana
+				religion = shinto
 				size = 27210
 			}
 			create_pop = { # mega26: Koreans converted to Japanese
 				culture = japanese
-				religion = mahayana
+				religion = shinto
 				size = 62572
 			}
 			create_pop = {
 				culture = japanese
-				religion = mahayana
+				religion = shinto
 				size = 316823
 			}
 		}
@@ -47036,17 +47036,17 @@
 			}
 			create_pop = {
 				culture = korean
-				religion = mahayana
+				religion = shinto
 				size = 112737
 			}
 			create_pop = { # mega26: Koreans converted to Japanese
 				culture = japanese
-				religion = mahayana
+				religion = shinto
 				size = 96803
 			}
 			create_pop = {
 				culture = japanese
-				religion = mahayana
+				religion = shinto
 				size = 719914
 			}
 			create_pop = {
@@ -47061,17 +47061,17 @@
 			}
 			create_pop = {
 				culture = korean
-				religion = mahayana
+				religion = shinto
 				size = 84101
 			}
 			create_pop = { # mega26: Koreans converted to Japanese
 				culture = japanese
-				religion = mahayana
+				religion = shinto
 				size = 72214
 			}
 			create_pop = {
 				culture = japanese
-				religion = mahayana
+				religion = shinto
 				size = 345899
 			}
 			create_pop = {
@@ -47086,17 +47086,17 @@
 			}
 			create_pop = {
 				culture = korean
-				religion = mahayana
+				religion = shinto
 				size = 113716
 			}
 			create_pop = { # mega26: Koreans converted to Japanese
 				culture = japanese
-				religion = mahayana
+				religion = shinto
 				size = 97645
 			}
 			create_pop = {
 				culture = japanese
-				religion = mahayana
+				religion = shinto
 				size = 724273
 			}
 			create_pop = {
@@ -47111,17 +47111,17 @@
 			}
 			create_pop = {
 				culture = korean
-				religion = mahayana
+				religion = shinto
 				size = 152856
 			}
 			create_pop = { # mega26: Koreans converted to Japanese
 				culture = japanese
-				religion = mahayana
+				religion = shinto
 				size = 131253
 			}
 			create_pop = {
 				culture = japanese
-				religion = mahayana
+				religion = shinto
 				size = 627471
 			}
 		}
@@ -47485,17 +47485,17 @@
 		region_state:JAP = {
 			create_pop = {
 				culture = japanese
-				religion = mahayana
+				religion = shinto
 				size = 1317180
 			}
 			create_pop = {
 				culture = japanese
-				religion = mahayana
+				religion = shinto
 				size = 1350110
 			}
 			create_pop = {
 				culture = japanese
-				religion = mahayana
+				religion = shinto
 				size = 1547687
 			}
 		}
@@ -52766,32 +52766,32 @@
 		region_state:JAP = {
 			create_pop = {
 				culture = japanese
-				religion = mahayana
+				religion = shinto
 				size = 1317180
 			}
 			create_pop = {
 				culture = japanese
-				religion = mahayana
+				religion = shinto
 				size = 1448898
 			}
 			create_pop = {
 				culture = japanese
-				religion = mahayana
+				religion = shinto
 				size = 450036
 			}
 			create_pop = {
 				culture = japanese
-				religion = mahayana
+				religion = shinto
 				size = 1152532
 			}
 			create_pop = {
 				culture = japanese
-				religion = mahayana
+				religion = shinto
 				size = 922026
 			}
 			create_pop = {
 				culture = japanese
-				religion = mahayana
+				religion = shinto
 				size = 1317180
 			}
 		}
@@ -52800,37 +52800,37 @@
 		region_state:JAP = {
 			create_pop = {
 				culture = japanese
-				religion = mahayana
+				religion = shinto
 				size = 1251321
 			}
 			create_pop = {
 				culture = japanese
-				religion = mahayana
+				religion = shinto
 				size = 1646475
 			}
 			create_pop = {
 				culture = japanese
-				religion = mahayana
+				religion = shinto
 				size = 1415968
 			}
 			create_pop = {
 				culture = japanese
-				religion = mahayana
+				religion = shinto
 				size = 1613545
 			}
 			create_pop = {
 				culture = japanese
-				religion = mahayana
+				religion = shinto
 				size = 938491
 			}
 			create_pop = {
 				culture = japanese
-				religion = mahayana
+				religion = shinto
 				size = 1481827
 			}
 			create_pop = {
 				culture = japanese
-				religion = mahayana
+				religion = shinto
 				size = 1844052
 			}
 		}
@@ -59645,17 +59645,17 @@
 			}
 			create_pop = {
 				culture = korean
-				religion = mahayana
+				religion = shinto
 				size = 95120
 			}
 			create_pop = { # mega26: Koreans converted to Japanese
 				culture = japanese
-				religion = mahayana
+				religion = shinto
 				size = 71002
 			}
 			create_pop = {
 				culture = japanese
-				religion = mahayana
+				religion = shinto
 				size = 437612
 			}
 			create_pop = {
@@ -59670,17 +59670,17 @@
 			}
 			create_pop = {
 				culture = korean
-				religion = mahayana
+				religion = shinto
 				size = 159733
 			}
 			create_pop = { # mega26: Koreans converted to Japanese
 				culture = japanese
-				religion = mahayana
+				religion = shinto
 				size = 119233
 			}
 			create_pop = {
 				culture = japanese
-				religion = mahayana
+				religion = shinto
 				size = 642406
 			}
 			create_pop = {
@@ -59695,17 +59695,17 @@
 			}
 			create_pop = {
 				culture = korean
-				religion = mahayana
+				religion = shinto
 				size = 158104
 			}
 			create_pop = { # mega26: Koreans converted to Japanese
 				culture = japanese
-				religion = mahayana
+				religion = shinto
 				size = 118018
 			}
 			create_pop = {
 				culture = japanese
-				religion = mahayana
+				religion = shinto
 				size = 638758
 			}
 			create_pop = {
@@ -59720,17 +59720,17 @@
 			}
 			create_pop = {
 				culture = korean
-				religion = mahayana
+				religion = shinto
 				size = 100905
 			}
 			create_pop = { # mega26: Koreans converted to Japanese
 				culture = japanese
-				religion = mahayana
+				religion = shinto
 				size = 75321
 			}
 			create_pop = {
 				culture = japanese
-				religion = mahayana
+				religion = shinto
 				size = 567882
 			}
 			create_pop = {
@@ -59745,17 +59745,17 @@
 			}
 			create_pop = {
 				culture = korean
-				religion = mahayana
+				religion = shinto
 				size = 149334
 			}
 			create_pop = { # mega26: Koreans converted to Japanese
 				culture = japanese
-				religion = mahayana
+				religion = shinto
 				size = 111471
 			}
 			create_pop = {
 				culture = japanese
-				religion = mahayana
+				religion = shinto
 				size = 561811
 			}
 			create_pop = {
@@ -59770,17 +59770,17 @@
 			}
 			create_pop = {
 				culture = korean
-				religion = mahayana
+				religion = shinto
 				size = 211523
 			}
 			create_pop = { # mega26: Koreans converted to Japanese
 				culture = japanese
-				religion = mahayana
+				religion = shinto
 				size = 157892
 			}
 			create_pop = {
 				culture = japanese
-				religion = mahayana
+				religion = shinto
 				size = 650665
 			}
 		}

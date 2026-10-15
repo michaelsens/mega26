@@ -25,7 +25,7 @@
 			last_name = "Nashimoto"
 			female = yes
 			culture = cu:japanese
-			religion = rel:mahayana
+			religion = rel:shinto
 			birth_date = 1796.9.22
 			traits = {
 				basic_political_operator direct 
@@ -37,7 +37,7 @@
 			last_name = "Katsura"
 			heir = yes
 			culture = cu:japanese
-			religion = rel:mahayana
+			religion = rel:shinto
 			birth_date = 1822.3.18
 			traits = {
 				basic_political_operator trait_child 
@@ -52,7 +52,7 @@
 			commander_rank = commander_rank_1
 			interest_group = ig_industrialists
 			culture = cu:japanese
-			religion = rel:mahayana
+			religion = rel:shinto
 			birth_date = 1801.8.20
 			traits = {
 				arrogant 
