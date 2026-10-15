@@ -1,0 +1,564 @@
+﻿# mega26: starting navies from the EU4 ledger: total ships (all types) / 4, split evenly between
+# ships of the line and frigates (odd ship goes to frigates). Barus and Jambi's ships go to Sumatra (merged).
+MILITARY_FORMATIONS = {
+	c:SPA ?= { # EU4 total 815
+		create_military_formation = {
+			type = fleet
+			hq_region = sr:region_southern_europe
+			ship = {
+				type = ship_type:ship_type_ship_of_the_line
+				count = 102
+			}
+			ship = {
+				type = ship_type:ship_type_frigate
+				count = 102
+			}
+		}
+	}
+	c:SCA ?= { # EU4 total 384
+		create_military_formation = {
+			type = fleet
+			hq_region = sr:region_northern_europe
+			ship = {
+				type = ship_type:ship_type_ship_of_the_line
+				count = 48
+			}
+			ship = {
+				type = ship_type:ship_type_frigate
+				count = 48
+			}
+		}
+	}
+	c:HRE ?= { # EU4 total 282
+		create_military_formation = {
+			type = fleet
+			hq_region = sr:region_southern_europe
+			ship = {
+				type = ship_type:ship_type_ship_of_the_line
+				count = 35
+			}
+			ship = {
+				type = ship_type:ship_type_frigate
+				count = 35
+			}
+		}
+	}
+	c:JAP ?= { # EU4 total 278
+		create_military_formation = {
+			type = fleet
+			hq_region = sr:region_northeast_asia
+			ship = {
+				type = ship_type:ship_type_ship_of_the_line
+				count = 35
+			}
+			ship = {
+				type = ship_type:ship_type_frigate
+				count = 35
+			}
+		}
+	}
+	c:TUR ?= { # EU4 total 219
+		create_military_formation = {
+			type = fleet
+			hq_region = sr:region_near_east
+			ship = {
+				type = ship_type:ship_type_ship_of_the_line
+				count = 27
+			}
+			ship = {
+				type = ship_type:ship_type_frigate
+				count = 28
+			}
+		}
+	}
+	c:MSH ?= { # EU4 total 129
+		create_military_formation = {
+			type = fleet
+			hq_region = sr:region_east_africa
+			ship = {
+				type = ship_type:ship_type_ship_of_the_line
+				count = 16
+			}
+			ship = {
+				type = ship_type:ship_type_frigate
+				count = 16
+			}
+		}
+	}
+	c:CUB ?= { # EU4 total 120
+		create_military_formation = {
+			type = fleet
+			hq_region = sr:region_central_america
+			ship = {
+				type = ship_type:ship_type_ship_of_the_line
+				count = 15
+			}
+			ship = {
+				type = ship_type:ship_type_frigate
+				count = 15
+			}
+		}
+	}
+	c:EQT ?= { # EU4 total 113
+		create_military_formation = {
+			type = fleet
+			hq_region = sr:region_brazil
+			ship = {
+				type = ship_type:ship_type_ship_of_the_line
+				count = 14
+			}
+			ship = {
+				type = ship_type:ship_type_frigate
+				count = 14
+			}
+		}
+	}
+	c:X50 ?= { # EU4 total 109
+		create_military_formation = {
+			type = fleet
+			hq_region = sr:region_indonesia
+			ship = {
+				type = ship_type:ship_type_ship_of_the_line
+				count = 13
+			}
+			ship = {
+				type = ship_type:ship_type_frigate
+				count = 14
+			}
+		}
+	}
+	c:PLT ?= { # EU4 total 104
+		create_military_formation = {
+			type = fleet
+			hq_region = sr:region_la_plata
+			ship = {
+				type = ship_type:ship_type_ship_of_the_line
+				count = 13
+			}
+			ship = {
+				type = ship_type:ship_type_frigate
+				count = 13
+			}
+		}
+	}
+	c:GBR ?= { # EU4 total 103
+		create_military_formation = {
+			type = fleet
+			hq_region = sr:region_western_europe
+			ship = {
+				type = ship_type:ship_type_ship_of_the_line
+				count = 13
+			}
+			ship = {
+				type = ship_type:ship_type_frigate
+				count = 13
+			}
+		}
+	}
+	c:BRU ?= { # EU4 total 102
+		create_military_formation = {
+			type = fleet
+			hq_region = sr:region_indonesia
+			ship = {
+				type = ship_type:ship_type_ship_of_the_line
+				count = 13
+			}
+			ship = {
+				type = ship_type:ship_type_frigate
+				count = 13
+			}
+		}
+	}
+	c:X24 ?= { # EU4 total 101
+		create_military_formation = {
+			type = fleet
+			hq_region = sr:region_canada
+			ship = {
+				type = ship_type:ship_type_ship_of_the_line
+				count = 12
+			}
+			ship = {
+				type = ship_type:ship_type_frigate
+				count = 13
+			}
+		}
+	}
+	c:X28 ?= { # EU4 total 99
+		create_military_formation = {
+			type = fleet
+			hq_region = sr:region_atlantic_coast
+			ship = {
+				type = ship_type:ship_type_ship_of_the_line
+				count = 12
+			}
+			ship = {
+				type = ship_type:ship_type_frigate
+				count = 13
+			}
+		}
+	}
+	c:X16 ?= { # EU4 total 97
+		create_military_formation = {
+			type = fleet
+			hq_region = sr:region_north_india
+			ship = {
+				type = ship_type:ship_type_ship_of_the_line
+				count = 12
+			}
+			ship = {
+				type = ship_type:ship_type_frigate
+				count = 12
+			}
+		}
+	}
+	c:X25 ?= { # EU4 total 90
+		create_military_formation = {
+			type = fleet
+			hq_region = sr:region_gran_colombia
+			ship = {
+				type = ship_type:ship_type_ship_of_the_line
+				count = 11
+			}
+			ship = {
+				type = ship_type:ship_type_frigate
+				count = 11
+			}
+		}
+	}
+	c:HAW ?= { # EU4 total 84
+		create_military_formation = {
+			type = fleet
+			hq_region = sr:region_oceania
+			ship = {
+				type = ship_type:ship_type_ship_of_the_line
+				count = 10
+			}
+			ship = {
+				type = ship_type:ship_type_frigate
+				count = 11
+			}
+		}
+	}
+	c:W91 ?= { # EU4 total 80
+		create_military_formation = {
+			type = fleet
+			hq_region = sr:region_indonesia
+			ship = {
+				type = ship_type:ship_type_ship_of_the_line
+				count = 10
+			}
+			ship = {
+				type = ship_type:ship_type_frigate
+				count = 10
+			}
+		}
+	}
+	c:X22 ?= { # EU4 total 71
+		create_military_formation = {
+			type = fleet
+			hq_region = sr:region_central_america
+			ship = {
+				type = ship_type:ship_type_ship_of_the_line
+				count = 9
+			}
+			ship = {
+				type = ship_type:ship_type_frigate
+				count = 9
+			}
+		}
+	}
+	c:V19 ?= { # EU4 total 71
+		create_military_formation = {
+			type = fleet
+			hq_region = sr:region_north_africa
+			ship = {
+				type = ship_type:ship_type_ship_of_the_line
+				count = 9
+			}
+			ship = {
+				type = ship_type:ship_type_frigate
+				count = 9
+			}
+		}
+	}
+	c:X26 ?= { # EU4 total 66
+		create_military_formation = {
+			type = fleet
+			hq_region = sr:region_atlantic_coast
+			ship = {
+				type = ship_type:ship_type_ship_of_the_line
+				count = 8
+			}
+			ship = {
+				type = ship_type:ship_type_frigate
+				count = 8
+			}
+		}
+	}
+	c:MAH ?= { # EU4 total 66
+		create_military_formation = {
+			type = fleet
+			hq_region = sr:region_arabia
+			ship = {
+				type = ship_type:ship_type_ship_of_the_line
+				count = 8
+			}
+			ship = {
+				type = ship_type:ship_type_frigate
+				count = 8
+			}
+		}
+	}
+	c:X07 ?= { # EU4 total 64
+		create_military_formation = {
+			type = fleet
+			hq_region = sr:region_nile_basin
+			ship = {
+				type = ship_type:ship_type_ship_of_the_line
+				count = 8
+			}
+			ship = {
+				type = ship_type:ship_type_frigate
+				count = 8
+			}
+		}
+	}
+	c:W44 ?= { # EU4 total 56
+		create_military_formation = {
+			type = fleet
+			hq_region = sr:region_indochina
+			ship = {
+				type = ship_type:ship_type_ship_of_the_line
+				count = 7
+			}
+			ship = {
+				type = ship_type:ship_type_frigate
+				count = 7
+			}
+		}
+	}
+	c:W31 ?= { # EU4 total 55
+		create_military_formation = {
+			type = fleet
+			hq_region = sr:region_indonesia
+			ship = {
+				type = ship_type:ship_type_ship_of_the_line
+				count = 7
+			}
+			ship = {
+				type = ship_type:ship_type_frigate
+				count = 7
+			}
+		}
+	}
+	c:W94 ?= { # EU4 total 52
+		create_military_formation = {
+			type = fleet
+			hq_region = sr:region_indonesia
+			ship = {
+				type = ship_type:ship_type_ship_of_the_line
+				count = 6
+			}
+			ship = {
+				type = ship_type:ship_type_frigate
+				count = 7
+			}
+		}
+	}
+	c:X91 ?= { # EU4 total 48
+		create_military_formation = {
+			type = fleet
+			hq_region = sr:region_indochina
+			ship = {
+				type = ship_type:ship_type_ship_of_the_line
+				count = 6
+			}
+			ship = {
+				type = ship_type:ship_type_frigate
+				count = 6
+			}
+		}
+	}
+	c:SH0 ?= { # EU4 total 48
+		create_military_formation = {
+			type = fleet
+			hq_region = sr:region_indochina
+			ship = {
+				type = ship_type:ship_type_ship_of_the_line
+				count = 6
+			}
+			ship = {
+				type = ship_type:ship_type_frigate
+				count = 6
+			}
+		}
+	}
+	c:W50 ?= { # EU4 total 36
+		create_military_formation = {
+			type = fleet
+			hq_region = sr:region_north_africa
+			ship = {
+				type = ship_type:ship_type_ship_of_the_line
+				count = 4
+			}
+			ship = {
+				type = ship_type:ship_type_frigate
+				count = 5
+			}
+		}
+	}
+	c:NPU ?= { # EU4 total 33
+		create_military_formation = {
+			type = fleet
+			hq_region = sr:region_andes
+			ship = {
+				type = ship_type:ship_type_ship_of_the_line
+				count = 4
+			}
+			ship = {
+				type = ship_type:ship_type_frigate
+				count = 4
+			}
+		}
+	}
+	c:X34 ?= { # EU4 total 32
+		create_military_formation = {
+			type = fleet
+			hq_region = sr:region_brazil
+			ship = {
+				type = ship_type:ship_type_ship_of_the_line
+				count = 4
+			}
+			ship = {
+				type = ship_type:ship_type_frigate
+				count = 4
+			}
+		}
+	}
+	c:X15 ?= { # EU4 total 30
+		create_military_formation = {
+			type = fleet
+			hq_region = sr:region_indonesia
+			ship = {
+				type = ship_type:ship_type_ship_of_the_line
+				count = 4
+			}
+			ship = {
+				type = ship_type:ship_type_frigate
+				count = 4
+			}
+		}
+	}
+	c:KTI ?= { # EU4 total 27
+		create_military_formation = {
+			type = fleet
+			hq_region = sr:region_indonesia
+			ship = {
+				type = ship_type:ship_type_ship_of_the_line
+				count = 3
+			}
+			ship = {
+				type = ship_type:ship_type_frigate
+				count = 4
+			}
+		}
+	}
+	c:V27 ?= { # EU4 total 24
+		create_military_formation = {
+			type = fleet
+			hq_region = sr:region_south_india
+			ship = {
+				type = ship_type:ship_type_ship_of_the_line
+				count = 3
+			}
+			ship = {
+				type = ship_type:ship_type_frigate
+				count = 3
+			}
+		}
+	}
+	c:ALI ?= { # EU4 total 21
+		create_military_formation = {
+			type = fleet
+			hq_region = sr:region_north_china
+			ship = {
+				type = ship_type:ship_type_ship_of_the_line
+				count = 2
+			}
+			ship = {
+				type = ship_type:ship_type_frigate
+				count = 3
+			}
+		}
+	}
+	c:W83 ?= { # EU4 total 20
+		create_military_formation = {
+			type = fleet
+			hq_region = sr:region_indonesia
+			ship = {
+				type = ship_type:ship_type_ship_of_the_line
+				count = 2
+			}
+			ship = {
+				type = ship_type:ship_type_frigate
+				count = 3
+			}
+		}
+	}
+	c:X80 ?= { # EU4 total 16
+		create_military_formation = {
+			type = fleet
+			hq_region = sr:region_southern_europe
+			ship = {
+				type = ship_type:ship_type_ship_of_the_line
+				count = 2
+			}
+			ship = {
+				type = ship_type:ship_type_frigate
+				count = 2
+			}
+		}
+	}
+	c:X17 ?= { # EU4 total 16
+		create_military_formation = {
+			type = fleet
+			hq_region = sr:region_indonesia
+			ship = {
+				type = ship_type:ship_type_ship_of_the_line
+				count = 2
+			}
+			ship = {
+				type = ship_type:ship_type_frigate
+				count = 2
+			}
+		}
+	}
+	c:ALK ?= { # EU4 total 15
+		create_military_formation = {
+			type = fleet
+			hq_region = sr:region_pacific_coast
+			ship = {
+				type = ship_type:ship_type_ship_of_the_line
+				count = 2
+			}
+			ship = {
+				type = ship_type:ship_type_frigate
+				count = 2
+			}
+		}
+	}
+	c:TEX ?= { # EU4 total 15
+		create_military_formation = {
+			type = fleet
+			hq_region = sr:region_central_america
+			ship = {
+				type = ship_type:ship_type_ship_of_the_line
+				count = 2
+			}
+			ship = {
+				type = ship_type:ship_type_frigate
+				count = 2
+			}
+		}
+	}
+}

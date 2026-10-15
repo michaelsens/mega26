@@ -11825,7 +11825,7 @@
 				add_ownership = {
 					country = {
 						country = c:X15
-						levels = 1
+						levels = 2 # mega26: +1 to crew the starting fleet
 					}
 				}
 				reserves = 1
@@ -16947,7 +16947,7 @@
 				add_ownership = {
 					country = {
 						country = c:TUR
-						levels = 1
+						levels = 2 # mega26: +1 to crew the starting fleet
 					}
 				}
 				reserves = 1
@@ -25401,7 +25401,7 @@
 				add_ownership = {
 					country = {
 						country = c:GBR
-						levels = 1
+						levels = 3 # mega26: +2 to crew the starting fleet
 					}
 				}
 				reserves = 1
@@ -27907,7 +27907,7 @@
 				add_ownership = {
 					country = {
 						country = c:HAW
-						levels = 7
+						levels = 10 # mega26: +3 to crew the starting fleet
 					}
 				}
 				reserves = 1
@@ -30281,7 +30281,7 @@
 				add_ownership = {
 					country = {
 						country = c:MAH
-						levels = 1
+						levels = 12 # mega26: +11 to crew the starting fleet
 					}
 				}
 				reserves = 1
@@ -31145,7 +31145,7 @@
 				add_ownership = {
 					country = {
 						country = c:JAP
-						levels = 1
+						levels = 6 # mega26: +5 to crew the starting fleet
 					}
 				}
 				reserves = 1
@@ -35154,7 +35154,7 @@
 				add_ownership = {
 					country = {
 						country = c:PLT
-						levels = 1
+						levels = 2 # mega26: +1 to crew the starting fleet
 					}
 				}
 				reserves = 1
