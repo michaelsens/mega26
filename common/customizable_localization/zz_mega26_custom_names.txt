@@ -5,7 +5,10 @@ mega26_national_guard_name = {
 
 	text = {
 		trigger = {
-			c:JAP ?= this
+			OR = {
+				c:JAP ?= this
+				c:GJP ?= this # Empire of Great Japan (decision)
+			}
 		}
 		localization_key = mega26_law_national_guard_jap
 	}

@@ -1,0 +1,6 @@
+﻿GJP = { # mega26: Empire of Great Japan - the rising sun (vanilla coat of arms JAP_rising_sun)
+	flag_definition = {
+		coa = JAP_rising_sun
+		priority = 1
+	}
+}

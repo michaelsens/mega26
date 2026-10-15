@@ -1,0 +1,23 @@
+﻿# mega26: the Japanese player can proclaim the Empire of Great Japan whenever they feel they've earned it.
+# Same approach as the Ottoman Caliphate decision: change_tag, players only, the AI never takes it.
+mega26_proclaim_empire_of_great_japan = {
+	is_shown = {
+		exists = c:JAP
+		c:JAP = ROOT
+		is_player = yes # mega26: players only - the AI never sees or takes this
+		NOT = { exists = c:GJP }
+	}
+
+	possible = {
+		is_subject = no
+		is_at_war = no
+	}
+
+	when_taken = {
+		change_tag = GJP
+	}
+
+	ai_chance = {
+		value = 0
+	}
+}

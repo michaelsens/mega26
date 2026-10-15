@@ -1,0 +1,9 @@
+﻿# mega26: the Empire of Great Japan, proclaimed by the Japanese player through a decision (zz_mega26_great_japan decisions)
+GJP = {
+	color = { 236 233 226 } # mega26: Japanese white (warm off-white, so it doesn't read as unowned land)
+	country_type = unrecognized # same as Japan: forming it doesn't grant recognition for free
+	tier = empire
+	cultures = { japanese }
+	religion = shinto
+	capital = STATE_KYOTO
+}
