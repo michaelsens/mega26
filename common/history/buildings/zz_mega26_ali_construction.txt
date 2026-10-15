@@ -1,6 +1,7 @@
-﻿# mega26: Altai's construction sectors, in its development states: wood (wooden buildings now), iron and coal
-# (iron-frame later, and the mines get built here first), enough people and spare infrastructure (2 per level, 8 kept free
-# for the camps and mines), at most 10 levels per state, favouring states Altai can fully tax. Planned with ali/joint.py.
+﻿# mega26: Altai's construction sectors sit next to wood they can source locally (market access price impact):
+# each level burns 75 wood and a saw-mill logging level makes 60, so a state backs at most 0.8 x its logging capacity,
+# and construction (2 infra) plus that logging (1.25 infra) must fit its free infrastructure. Iron/coal states first,
+# for the later iron-frame switch; at least 1M people; 5-10 levels per state. Planned with scratchpad ali/cons2.py.
 BUILDINGS = {
 	s:STATE_AMUR = {
 		region_state:ALI = {
@@ -32,14 +33,14 @@ BUILDINGS = {
 			}
 		}
 	}
-	s:STATE_GUIZHOU = {
+	s:STATE_HENAN = {
 		region_state:ALI = {
 			create_building = {
 				building = "building_construction_sector"
 				add_ownership = {
 					country = {
 						country = c:ALI
-						levels = 9
+						levels = 8
 					}
 				}
 				reserves = 1
@@ -47,14 +48,29 @@ BUILDINGS = {
 			}
 		}
 	}
-	s:STATE_HINGGAN = {
+	s:STATE_JIANGXI = {
 		region_state:ALI = {
 			create_building = {
 				building = "building_construction_sector"
 				add_ownership = {
 					country = {
 						country = c:ALI
-						levels = 7
+						levels = 6
+					}
+				}
+				reserves = 1
+				activate_production_methods = {  }
+			}
+		}
+	}
+	s:STATE_NORTHERN_MANCHURIA = {
+		region_state:ALI = {
+			create_building = {
+				building = "building_construction_sector"
+				add_ownership = {
+					country = {
+						country = c:ALI
+						levels = 10
 					}
 				}
 				reserves = 1
@@ -69,7 +85,7 @@ BUILDINGS = {
 				add_ownership = {
 					country = {
 						country = c:ALI
-						levels = 10
+						levels = 5
 					}
 				}
 				reserves = 1
@@ -84,7 +100,7 @@ BUILDINGS = {
 				add_ownership = {
 					country = {
 						country = c:ALI
-						levels = 7
+						levels = 8
 					}
 				}
 				reserves = 1
@@ -99,7 +115,7 @@ BUILDINGS = {
 				add_ownership = {
 					country = {
 						country = c:ALI
-						levels = 10
+						levels = 9
 					}
 				}
 				reserves = 1
@@ -107,14 +123,14 @@ BUILDINGS = {
 			}
 		}
 	}
-	s:STATE_TOMSK = {
+	s:STATE_SOUTHERN_MANCHURIA = {
 		region_state:ALI = {
 			create_building = {
 				building = "building_construction_sector"
 				add_ownership = {
 					country = {
 						country = c:ALI
-						levels = 4
+						levels = 6
 					}
 				}
 				reserves = 1
@@ -122,22 +138,7 @@ BUILDINGS = {
 			}
 		}
 	}
-	s:STATE_ULIASTAI = {
-		region_state:ALI = {
-			create_building = {
-				building = "building_construction_sector"
-				add_ownership = {
-					country = {
-						country = c:ALI
-						levels = 7
-					}
-				}
-				reserves = 1
-				activate_production_methods = {  }
-			}
-		}
-	}
-	s:STATE_URGA = {
+	s:STATE_TONKIN = {
 		region_state:ALI = {
 			create_building = {
 				building = "building_construction_sector"
@@ -152,14 +153,14 @@ BUILDINGS = {
 			}
 		}
 	}
-	s:STATE_XIAN = {
+	s:STATE_ZHEJIANG = {
 		region_state:ALI = {
 			create_building = {
 				building = "building_construction_sector"
 				add_ownership = {
 					country = {
 						country = c:ALI
-						levels = 8
+						levels = 10
 					}
 				}
 				reserves = 1

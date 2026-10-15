@@ -1,7 +1,37 @@
 ﻿# mega26: Altai's administration, placed by tax-capacity value (industry per pop, iron, the capital's +25%),
-# with construction states (zz_mega26_ali_construction.txt) valued 30% higher since they're built up first.
-# Each state is filled to its current shortfall, never past it. Planned with scratchpad ali/joint.py.
+# construction states (zz_mega26_ali_construction.txt) valued double since they're built up first.
+# Each state is filled to its current shortfall, never past it. Planned with scratchpad ali/joint2.py.
 BUILDINGS = {
+	s:STATE_AMUR = {
+		region_state:ALI = {
+			create_building = {
+				building = "building_government_administration"
+				add_ownership = {
+					country = {
+						country = c:ALI
+						levels = 3
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_horizontal_drawer_cabinets" }
+			}
+		}
+	}
+	s:STATE_ANNAM = {
+		region_state:ALI = {
+			create_building = {
+				building = "building_government_administration"
+				add_ownership = {
+					country = {
+						country = c:ALI
+						levels = 2
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_horizontal_drawer_cabinets" }
+			}
+		}
+	}
 	s:STATE_BEIJING = {
 		region_state:ALI = {
 			create_building = {
@@ -9,37 +39,37 @@ BUILDINGS = {
 				add_ownership = {
 					country = {
 						country = c:ALI
+						levels = 12
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_horizontal_drawer_cabinets" }
+			}
+		}
+	}
+	s:STATE_HENAN = {
+		region_state:ALI = {
+			create_building = {
+				building = "building_government_administration"
+				add_ownership = {
+					country = {
+						country = c:ALI
+						levels = 24
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_horizontal_drawer_cabinets" }
+			}
+		}
+	}
+	s:STATE_NORTHERN_MANCHURIA = {
+		region_state:ALI = {
+			create_building = {
+				building = "building_government_administration"
+				add_ownership = {
+					country = {
+						country = c:ALI
 						levels = 19
-					}
-				}
-				reserves = 1
-				activate_production_methods = { "pm_horizontal_drawer_cabinets" }
-			}
-		}
-	}
-	s:STATE_DZUNGARIA = {
-		region_state:ALI = {
-			create_building = {
-				building = "building_government_administration"
-				add_ownership = {
-					country = {
-						country = c:ALI
-						levels = 10
-					}
-				}
-				reserves = 1
-				activate_production_methods = { "pm_horizontal_drawer_cabinets" }
-			}
-		}
-	}
-	s:STATE_HINGGAN = {
-		region_state:ALI = {
-			create_building = {
-				building = "building_government_administration"
-				add_ownership = {
-					country = {
-						country = c:ALI
-						levels = 11
 					}
 				}
 				reserves = 1
@@ -99,37 +129,7 @@ BUILDINGS = {
 				add_ownership = {
 					country = {
 						country = c:ALI
-						levels = 26
-					}
-				}
-				reserves = 1
-				activate_production_methods = { "pm_horizontal_drawer_cabinets" }
-			}
-		}
-	}
-	s:STATE_ULIASTAI = {
-		region_state:ALI = {
-			create_building = {
-				building = "building_government_administration"
-				add_ownership = {
-					country = {
-						country = c:ALI
-						levels = 14
-					}
-				}
-				reserves = 1
-				activate_production_methods = { "pm_horizontal_drawer_cabinets" }
-			}
-		}
-	}
-	s:STATE_URGA = {
-		region_state:ALI = {
-			create_building = {
-				building = "building_government_administration"
-				add_ownership = {
-					country = {
-						country = c:ALI
-						levels = 9
+						levels = 27
 					}
 				}
 				reserves = 1
