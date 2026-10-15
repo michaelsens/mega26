@@ -1,7 +1,52 @@
-﻿# mega26: Rozvi's government administration, placed by tax capacity (scratchpad navy/msh_admin.py, same model as Altai):
-# ~1.05 bureaucracy ratio including economy of scale, weighted to populous, industrialised and construction states
-# within their free infrastructure. Replaces the converter's 104 levels (35 of them in Somaliland).
+﻿# mega26: Rozvi's government administration spread thin (scratchpad navy/msh_spread.py): qualified clerks and bureaucrats
+# are scarce everywhere, so many small buildings each hire from their own state's pool instead of a few big ones sitting empty.
+# Tanganyika, Zambezi and Mozambique proved fully staffable in game and get more. ~1.08 bureaucracy at full staffing.
 BUILDINGS = {
+	s:STATE_AMHARA = {
+		region_state:MSH = {
+			create_building = {
+				building = "building_government_administration"
+				add_ownership = {
+					country = {
+						country = c:MSH
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_horizontal_drawer_cabinets" }
+			}
+		}
+	}
+	s:STATE_BAS_CONGO = {
+		region_state:MSH = {
+			create_building = {
+				building = "building_government_administration"
+				add_ownership = {
+					country = {
+						country = c:MSH
+						levels = 2
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_horizontal_drawer_cabinets" }
+			}
+		}
+	}
+	s:STATE_BENIN = {
+		region_state:MSH = {
+			create_building = {
+				building = "building_government_administration"
+				add_ownership = {
+					country = {
+						country = c:MSH
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_horizontal_drawer_cabinets" }
+			}
+		}
+	}
 	s:STATE_BOMBAY = {
 		region_state:MSH = {
 			create_building = {
@@ -9,7 +54,37 @@ BUILDINGS = {
 				add_ownership = {
 					country = {
 						country = c:MSH
-						levels = 18
+						levels = 3
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_horizontal_drawer_cabinets" }
+			}
+		}
+	}
+	s:STATE_CAPE_COLONY = {
+		region_state:MSH = {
+			create_building = {
+				building = "building_government_administration"
+				add_ownership = {
+					country = {
+						country = c:MSH
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_horizontal_drawer_cabinets" }
+			}
+		}
+	}
+	s:STATE_CENTRAL_PROVINCES = {
+		region_state:MSH = {
+			create_building = {
+				building = "building_government_administration"
+				add_ownership = {
+					country = {
+						country = c:MSH
+						levels = 2
 					}
 				}
 				reserves = 1
@@ -24,7 +99,52 @@ BUILDINGS = {
 				add_ownership = {
 					country = {
 						country = c:MSH
-						levels = 11
+						levels = 3
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_horizontal_drawer_cabinets" }
+			}
+		}
+	}
+	s:STATE_CIRCARS = {
+		region_state:MSH = {
+			create_building = {
+				building = "building_government_administration"
+				add_ownership = {
+					country = {
+						country = c:MSH
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_horizontal_drawer_cabinets" }
+			}
+		}
+	}
+	s:STATE_DAHOMEY = {
+		region_state:MSH = {
+			create_building = {
+				building = "building_government_administration"
+				add_ownership = {
+					country = {
+						country = c:MSH
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_horizontal_drawer_cabinets" }
+			}
+		}
+	}
+	s:STATE_EASTERN_CAPE = {
+		region_state:MSH = {
+			create_building = {
+				building = "building_government_administration"
+				add_ownership = {
+					country = {
+						country = c:MSH
+						levels = 1
 					}
 				}
 				reserves = 1
@@ -47,6 +167,96 @@ BUILDINGS = {
 			}
 		}
 	}
+	s:STATE_EAST_ANGOLA = {
+		region_state:MSH = {
+			create_building = {
+				building = "building_government_administration"
+				add_ownership = {
+					country = {
+						country = c:MSH
+						levels = 2
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_horizontal_drawer_cabinets" }
+			}
+		}
+	}
+	s:STATE_EAST_HAUSALAND = {
+		region_state:MSH = {
+			create_building = {
+				building = "building_government_administration"
+				add_ownership = {
+					country = {
+						country = c:MSH
+						levels = 2
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_horizontal_drawer_cabinets" }
+			}
+		}
+	}
+	s:STATE_GOLD_COAST = {
+		region_state:MSH = {
+			create_building = {
+				building = "building_government_administration"
+				add_ownership = {
+					country = {
+						country = c:MSH
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_horizontal_drawer_cabinets" }
+			}
+		}
+	}
+	s:STATE_GONDER = {
+		region_state:MSH = {
+			create_building = {
+				building = "building_government_administration"
+				add_ownership = {
+					country = {
+						country = c:MSH
+						levels = 2
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_horizontal_drawer_cabinets" }
+			}
+		}
+	}
+	s:STATE_GUINEA = {
+		region_state:MSH = {
+			create_building = {
+				building = "building_government_administration"
+				add_ownership = {
+					country = {
+						country = c:MSH
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_horizontal_drawer_cabinets" }
+			}
+		}
+	}
+	s:STATE_HAUSALAND = {
+		region_state:MSH = {
+			create_building = {
+				building = "building_government_administration"
+				add_ownership = {
+					country = {
+						country = c:MSH
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_horizontal_drawer_cabinets" }
+			}
+		}
+	}
 	s:STATE_HYDERABAD = {
 		region_state:MSH = {
 			create_building = {
@@ -54,7 +264,127 @@ BUILDINGS = {
 				add_ownership = {
 					country = {
 						country = c:MSH
-						levels = 17
+						levels = 3
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_horizontal_drawer_cabinets" }
+			}
+		}
+	}
+	s:STATE_KASAI = {
+		region_state:MSH = {
+			create_building = {
+				building = "building_government_administration"
+				add_ownership = {
+					country = {
+						country = c:MSH
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_horizontal_drawer_cabinets" }
+			}
+		}
+	}
+	s:STATE_KATANGA = {
+		region_state:MSH = {
+			create_building = {
+				building = "building_government_administration"
+				add_ownership = {
+					country = {
+						country = c:MSH
+						levels = 2
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_horizontal_drawer_cabinets" }
+			}
+		}
+	}
+	s:STATE_KAZEMBE = {
+		region_state:MSH = {
+			create_building = {
+				building = "building_government_administration"
+				add_ownership = {
+					country = {
+						country = c:MSH
+						levels = 2
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_horizontal_drawer_cabinets" }
+			}
+		}
+	}
+	s:STATE_KENYA = {
+		region_state:MSH = {
+			create_building = {
+				building = "building_government_administration"
+				add_ownership = {
+					country = {
+						country = c:MSH
+						levels = 2
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_horizontal_drawer_cabinets" }
+			}
+		}
+	}
+	s:STATE_KURNOOL = {
+		region_state:MSH = {
+			create_building = {
+				building = "building_government_administration"
+				add_ownership = {
+					country = {
+						country = c:MSH
+						levels = 2
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_horizontal_drawer_cabinets" }
+			}
+		}
+	}
+	s:STATE_LINDI = {
+		region_state:MSH = {
+			create_building = {
+				building = "building_government_administration"
+				add_ownership = {
+					country = {
+						country = c:MSH
+						levels = 2
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_horizontal_drawer_cabinets" }
+			}
+		}
+	}
+	s:STATE_LOURENCO_MARQUES = {
+		region_state:MSH = {
+			create_building = {
+				building = "building_government_administration"
+				add_ownership = {
+					country = {
+						country = c:MSH
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_horizontal_drawer_cabinets" }
+			}
+		}
+	}
+	s:STATE_MADRAS = {
+		region_state:MSH = {
+			create_building = {
+				building = "building_government_administration"
+				add_ownership = {
+					country = {
+						country = c:MSH
+						levels = 1
 					}
 				}
 				reserves = 1
@@ -63,6 +393,96 @@ BUILDINGS = {
 		}
 	}
 	s:STATE_MOCAMBIQUE = {
+		region_state:MSH = {
+			create_building = {
+				building = "building_government_administration"
+				add_ownership = {
+					country = {
+						country = c:MSH
+						levels = 4
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_horizontal_drawer_cabinets" }
+			}
+		}
+	}
+	s:STATE_MYSORE = {
+		region_state:MSH = {
+			create_building = {
+				building = "building_government_administration"
+				add_ownership = {
+					country = {
+						country = c:MSH
+						levels = 3
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_horizontal_drawer_cabinets" }
+			}
+		}
+	}
+	s:STATE_NIGER = {
+		region_state:MSH = {
+			create_building = {
+				building = "building_government_administration"
+				add_ownership = {
+					country = {
+						country = c:MSH
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_horizontal_drawer_cabinets" }
+			}
+		}
+	}
+	s:STATE_NIGERIA = {
+		region_state:MSH = {
+			create_building = {
+				building = "building_government_administration"
+				add_ownership = {
+					country = {
+						country = c:MSH
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_horizontal_drawer_cabinets" }
+			}
+		}
+	}
+	s:STATE_NORTHERN_CAPE = {
+		region_state:MSH = {
+			create_building = {
+				building = "building_government_administration"
+				add_ownership = {
+					country = {
+						country = c:MSH
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_horizontal_drawer_cabinets" }
+			}
+		}
+	}
+	s:STATE_NORTH_ANGOLA = {
+		region_state:MSH = {
+			create_building = {
+				building = "building_government_administration"
+				add_ownership = {
+					country = {
+						country = c:MSH
+						levels = 2
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_horizontal_drawer_cabinets" }
+			}
+		}
+	}
+	s:STATE_NORTH_MADAGASCAR = {
 		region_state:MSH = {
 			create_building = {
 				building = "building_government_administration"
@@ -84,7 +504,7 @@ BUILDINGS = {
 				add_ownership = {
 					country = {
 						country = c:MSH
-						levels = 4
+						levels = 3
 					}
 				}
 				reserves = 1
@@ -107,6 +527,21 @@ BUILDINGS = {
 			}
 		}
 	}
+	s:STATE_SENEGAL = {
+		region_state:MSH = {
+			create_building = {
+				building = "building_government_administration"
+				add_ownership = {
+					country = {
+						country = c:MSH
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_horizontal_drawer_cabinets" }
+			}
+		}
+	}
 	s:STATE_SOMALILAND = {
 		region_state:MSH = {
 			create_building = {
@@ -114,7 +549,7 @@ BUILDINGS = {
 				add_ownership = {
 					country = {
 						country = c:MSH
-						levels = 13
+						levels = 3
 					}
 				}
 				reserves = 1
@@ -129,7 +564,7 @@ BUILDINGS = {
 				add_ownership = {
 					country = {
 						country = c:MSH
-						levels = 4
+						levels = 3
 					}
 				}
 				reserves = 1
@@ -167,6 +602,51 @@ BUILDINGS = {
 			}
 		}
 	}
+	s:STATE_TRANSVAAL = {
+		region_state:MSH = {
+			create_building = {
+				building = "building_government_administration"
+				add_ownership = {
+					country = {
+						country = c:MSH
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_horizontal_drawer_cabinets" }
+			}
+		}
+	}
+	s:STATE_TRAVANCORE = {
+		region_state:MSH = {
+			create_building = {
+				building = "building_government_administration"
+				add_ownership = {
+					country = {
+						country = c:MSH
+						levels = 3
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_horizontal_drawer_cabinets" }
+			}
+		}
+	}
+	s:STATE_UGANDA = {
+		region_state:MSH = {
+			create_building = {
+				building = "building_government_administration"
+				add_ownership = {
+					country = {
+						country = c:MSH
+						levels = 2
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_horizontal_drawer_cabinets" }
+			}
+		}
+	}
 	s:STATE_VOLTA = {
 		region_state:MSH = {
 			create_building = {
@@ -182,6 +662,36 @@ BUILDINGS = {
 			}
 		}
 	}
+	s:STATE_WADDAI = {
+		region_state:MSH = {
+			create_building = {
+				building = "building_government_administration"
+				add_ownership = {
+					country = {
+						country = c:MSH
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_horizontal_drawer_cabinets" }
+			}
+		}
+	}
+	s:STATE_WESTERN_MALI = {
+		region_state:MSH = {
+			create_building = {
+				building = "building_government_administration"
+				add_ownership = {
+					country = {
+						country = c:MSH
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_horizontal_drawer_cabinets" }
+			}
+		}
+	}
 	s:STATE_ZAMBEZI = {
 		region_state:MSH = {
 			create_building = {
@@ -189,7 +699,37 @@ BUILDINGS = {
 				add_ownership = {
 					country = {
 						country = c:MSH
+						levels = 6
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_horizontal_drawer_cabinets" }
+			}
+		}
+	}
+	s:STATE_ZAMBEZIA = {
+		region_state:MSH = {
+			create_building = {
+				building = "building_government_administration"
+				add_ownership = {
+					country = {
+						country = c:MSH
 						levels = 2
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_horizontal_drawer_cabinets" }
+			}
+		}
+	}
+	s:STATE_ZANZIBAR = {
+		region_state:MSH = {
+			create_building = {
+				building = "building_government_administration"
+				add_ownership = {
+					country = {
+						country = c:MSH
+						levels = 1
 					}
 				}
 				reserves = 1
