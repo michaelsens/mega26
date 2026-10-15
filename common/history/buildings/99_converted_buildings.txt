@@ -4400,6 +4400,20 @@
 				activate_production_methods = { "pm_lathe" "pm_precision_tools" }
 			}
 			create_building = {
+				building = "building_steel_mill"
+				add_ownership = {
+					building = {
+						type = building_steel_mill
+						country = c:HRE
+						levels = 2
+						region = STATE_BAVARIA
+					}
+				}
+				reserves = 1
+				activate_production_methods = { }
+			}
+		}
+			create_building = {
 				building = "building_textile_mill"
 				add_ownership = {
 					building = {
@@ -24101,27 +24115,6 @@
 				reserves = 1
 				activate_production_methods = { "pm_soil_enriching_farming_building_rice_farm" "pm_fig_orchards_building_rice_farm" "pm_tools_building_rice_farm" }
 			}
-			create_building = {
-				building = "building_paper_mill"
-				add_ownership = {
-					building = {
-						type = building_financial_district
-						country = c:HRE
-						levels = 1
-						region = STATE_MANDALAY
-					}
-				}
-				add_ownership = {
-					building = {
-						type = building_paper_mill
-						country = c:HRE
-						levels = 1
-						region = STATE_MANDALAY
-					}
-				}
-				reserves = 1
-				activate_production_methods = { "pm_sulfite_pulping" }
-			}
 		}
 		region_state:X16 = {
 			create_building = {
@@ -31717,27 +31710,6 @@
 				}
 				reserves = 1
 				activate_production_methods = { "pm_soil_enriching_farming_building_rice_farm" "pm_fig_orchards_building_rice_farm" "pm_tools_building_rice_farm" }
-			}
-			create_building = {
-				building = "building_tooling_workshop"
-				add_ownership = {
-					building = {
-						type = building_financial_district
-						country = c:HRE
-						levels = 1
-						region = STATE_PEGU
-					}
-				}
-				add_ownership = {
-					building = {
-						type = building_tooling_workshop
-						country = c:HRE
-						levels = 1
-						region = STATE_PEGU
-					}
-				}
-				reserves = 1
-				activate_production_methods = { "pm_steel" }
 			}
 			create_building = {
 				building = "building_port"

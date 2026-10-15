@@ -6077,12 +6077,12 @@
 	s:STATE_SCHLESWIG_HOLSTEIN = {
 		create_state = {
 			country = c:HRE
-			owned_provinces = { x64824C x804160 xE000A0 }
+			owned_provinces = { x64824C x804160 xBFCC21 xE000A0 }
 			state_type = incorporated
 		}
 		create_state = {
 			country = c:SCA
-			owned_provinces = { x00C060 x78B203 xBFCC21 xE3C876 }
+			owned_provinces = { x00C060 x78B203 xE3C876 }
 			state_type = incorporated
 		}
 		create_state = {
