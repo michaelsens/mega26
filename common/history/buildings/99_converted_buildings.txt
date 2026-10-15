@@ -4412,7 +4412,6 @@
 				reserves = 1
 				activate_production_methods = { }
 			}
-		}
 			create_building = {
 				building = "building_textile_mill"
 				add_ownership = {
