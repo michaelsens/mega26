@@ -15843,7 +15843,7 @@
 				add_ownership = {
 					country = {
 						country = c:HAW
-						levels = 8
+						levels = 10 # mega26: +2 for the schools institution (religious schools)
 					}
 				}
 				reserves = 1

@@ -1591,7 +1591,7 @@
 		activate_law = law_type:law_no_home_affairs
 		activate_law = law_type:law_no_migration_controls
 		activate_law = law_type:law_no_police
-		activate_law = law_type:law_no_schools
+		activate_law = law_type:law_religious_schools # mega26: was no schools
 		activate_law = law_type:law_no_social_security
 		activate_law = law_type:law_no_womens_rights
 		activate_law = law_type:law_no_workers_rights
