@@ -26216,17 +26216,6 @@
 				activate_production_methods = { "pm_pulp_pressing" }
 			}
 			create_building = {
-				building = "building_government_administration"
-				add_ownership = {
-					country = {
-						country = c:MSH
-						levels = 9
-					}
-				}
-				reserves = 1
-				activate_production_methods = { "pm_horizontal_drawer_cabinets" }
-			}
-			create_building = {
 				building = "building_port"
 				add_ownership = {
 					country = {
@@ -30882,17 +30871,6 @@
 				}
 				reserves = 1
 				activate_production_methods = { "pm_pulp_pressing" }
-			}
-			create_building = {
-				building = "building_government_administration"
-				add_ownership = {
-					country = {
-						country = c:MSH
-						levels = 15
-					}
-				}
-				reserves = 1
-				activate_production_methods = { "pm_horizontal_drawer_cabinets" }
 			}
 		}
 	}
@@ -37250,17 +37228,6 @@
 				activate_production_methods = { "pm_handcrafted_furniture" "pm_luxury_furniture" }
 			}
 			create_building = {
-				building = "building_government_administration"
-				add_ownership = {
-					country = {
-						country = c:MSH
-						levels = 35
-					}
-				}
-				reserves = 1
-				activate_production_methods = { "pm_horizontal_drawer_cabinets" }
-			}
-			create_building = {
 				building = "building_port"
 				add_ownership = {
 					country = {
@@ -37848,17 +37815,6 @@
 				}
 				reserves = 1
 				activate_production_methods = { "pm_handcrafted_furniture" "pm_luxury_furniture" }
-			}
-			create_building = {
-				building = "building_government_administration"
-				add_ownership = {
-					country = {
-						country = c:MSH
-						levels = 15
-					}
-				}
-				reserves = 1
-				activate_production_methods = { "pm_horizontal_drawer_cabinets" }
 			}
 			create_building = {
 				building = "building_port"
@@ -39081,17 +39037,6 @@
 				}
 				reserves = 1
 				activate_production_methods = { "pm_pulp_pressing" }
-			}
-			create_building = {
-				building = "building_government_administration"
-				add_ownership = {
-					country = {
-						country = c:MSH
-						levels = 15
-					}
-				}
-				reserves = 1
-				activate_production_methods = { "pm_horizontal_drawer_cabinets" }
 			}
 		}
 	}
@@ -46208,17 +46153,6 @@
 				}
 				reserves = 1
 				activate_production_methods = { "pm_pig_iron" }
-			}
-			create_building = {
-				building = "building_government_administration"
-				add_ownership = {
-					country = {
-						country = c:MSH
-						levels = 15
-					}
-				}
-				reserves = 1
-				activate_production_methods = { "pm_horizontal_drawer_cabinets" }
 			}
 		}
 	}
