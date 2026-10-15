@@ -1,0 +1,27 @@
+﻿# mega26: the converter's 00_global.txt replaces vanilla's, which dropped vanilla's starting supply ships.
+# Same formula as vanilla: 8 x (1 + ships + 10 per shipyard), for every country with a fleet (zz_mega26_navies.txt).
+GLOBAL = {
+	every_country = {
+		limit = {
+			navy_size >= 1
+		}
+		add_supply_ships = {
+			value = 1
+			add = navy_size
+			if = {
+				limit = {
+					any_scope_building = {
+						is_building_type = building_shipyard
+					}
+				}
+				every_scope_building = {
+					limit = {
+						is_building_type = building_shipyard
+					}
+					add = 10
+				}
+			}
+			multiply = 8
+		}
+	}
+}
