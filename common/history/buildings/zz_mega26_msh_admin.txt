@@ -1,6 +1,6 @@
 ﻿# mega26: Rozvi's government administration spread thin (scratchpad navy/msh_spread.py): qualified clerks and bureaucrats
 # are scarce everywhere, so many small buildings each hire from their own state's pool instead of a few big ones sitting empty.
-# Tanganyika, Zambezi and Mozambique proved fully staffable in game and get more. ~1.08 bureaucracy at full staffing.
+# Levels doubled in the 18 states that staffed in game (second test); the rest stay small.
 BUILDINGS = {
 	s:STATE_AMHARA = {
 		region_state:MSH = {
@@ -39,7 +39,7 @@ BUILDINGS = {
 				add_ownership = {
 					country = {
 						country = c:MSH
-						levels = 1
+						levels = 2
 					}
 				}
 				reserves = 1
@@ -69,7 +69,7 @@ BUILDINGS = {
 				add_ownership = {
 					country = {
 						country = c:MSH
-						levels = 1
+						levels = 2
 					}
 				}
 				reserves = 1
@@ -144,7 +144,7 @@ BUILDINGS = {
 				add_ownership = {
 					country = {
 						country = c:MSH
-						levels = 1
+						levels = 2
 					}
 				}
 				reserves = 1
@@ -279,7 +279,7 @@ BUILDINGS = {
 				add_ownership = {
 					country = {
 						country = c:MSH
-						levels = 1
+						levels = 2
 					}
 				}
 				reserves = 1
@@ -294,7 +294,7 @@ BUILDINGS = {
 				add_ownership = {
 					country = {
 						country = c:MSH
-						levels = 2
+						levels = 4
 					}
 				}
 				reserves = 1
@@ -309,7 +309,7 @@ BUILDINGS = {
 				add_ownership = {
 					country = {
 						country = c:MSH
-						levels = 2
+						levels = 4
 					}
 				}
 				reserves = 1
@@ -324,7 +324,7 @@ BUILDINGS = {
 				add_ownership = {
 					country = {
 						country = c:MSH
-						levels = 2
+						levels = 4
 					}
 				}
 				reserves = 1
@@ -354,7 +354,7 @@ BUILDINGS = {
 				add_ownership = {
 					country = {
 						country = c:MSH
-						levels = 2
+						levels = 4
 					}
 				}
 				reserves = 1
@@ -369,7 +369,7 @@ BUILDINGS = {
 				add_ownership = {
 					country = {
 						country = c:MSH
-						levels = 1
+						levels = 2
 					}
 				}
 				reserves = 1
@@ -399,7 +399,7 @@ BUILDINGS = {
 				add_ownership = {
 					country = {
 						country = c:MSH
-						levels = 4
+						levels = 8
 					}
 				}
 				reserves = 1
@@ -429,7 +429,7 @@ BUILDINGS = {
 				add_ownership = {
 					country = {
 						country = c:MSH
-						levels = 1
+						levels = 2
 					}
 				}
 				reserves = 1
@@ -459,7 +459,7 @@ BUILDINGS = {
 				add_ownership = {
 					country = {
 						country = c:MSH
-						levels = 1
+						levels = 2
 					}
 				}
 				reserves = 1
@@ -579,7 +579,7 @@ BUILDINGS = {
 				add_ownership = {
 					country = {
 						country = c:MSH
-						levels = 6
+						levels = 12
 					}
 				}
 				reserves = 1
@@ -609,7 +609,7 @@ BUILDINGS = {
 				add_ownership = {
 					country = {
 						country = c:MSH
-						levels = 1
+						levels = 2
 					}
 				}
 				reserves = 1
@@ -639,7 +639,7 @@ BUILDINGS = {
 				add_ownership = {
 					country = {
 						country = c:MSH
-						levels = 2
+						levels = 4
 					}
 				}
 				reserves = 1
@@ -699,7 +699,7 @@ BUILDINGS = {
 				add_ownership = {
 					country = {
 						country = c:MSH
-						levels = 6
+						levels = 12
 					}
 				}
 				reserves = 1
@@ -714,7 +714,7 @@ BUILDINGS = {
 				add_ownership = {
 					country = {
 						country = c:MSH
-						levels = 2
+						levels = 4
 					}
 				}
 				reserves = 1
@@ -729,7 +729,7 @@ BUILDINGS = {
 				add_ownership = {
 					country = {
 						country = c:MSH
-						levels = 1
+						levels = 2
 					}
 				}
 				reserves = 1
